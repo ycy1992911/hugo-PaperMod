@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "531e9b0cb2142aed",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5f7e16d58f6e6fe",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53b3b887f00e7270",
+    "type": "split",
+    "children": [
+      {
+        "id": "619c0e9977fc2320",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4b94fb4fbb4a280",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "75ef73c1850df7b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e9505ef996ac5c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ed000be6eb890c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed7794c8af8ef8de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e5f7e16d58f6e6fe",
+  "lastOpenFiles": [
+    "search.md",
+    "hello-world.md"
+  ]
+}

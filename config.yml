@@ -1,0 +1,56 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'A Journey'
+theme: 'paperMod'
+
+#theme tutorial: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode
+params:
+    #theme
+    defaultTheme: auto
+
+    #profile
+    homeInfoParams:
+        Title: Hi there 👋
+        Content: Can be Info, links, about...
+    socialIcons:
+            - name: "github"
+              url: "https://github.com/ycy1992911"
+
+    #posts related on the home page
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    # ShowToc: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+
+    #giscus
+    giscus:
+        enable: true
+        data_repo: "ycy1992911/giscus"
+        data_repo_id: "R_kgDOHJu_Cw"
+        data_category: "General"
+        data_category_id: "DIC_kwDOHJu_C84COgDH"
+        data_mapping: "url"
+        data_reactions_enabled: "1"
+        data_emit_metadata: "0"
+        data_input_position: "bottom"
+        data_theme: "light"
+        data_language: "en"
+        crossorigin: "anonymous"
+
+    #search function
+    fuseOpts: 
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+#search related
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON

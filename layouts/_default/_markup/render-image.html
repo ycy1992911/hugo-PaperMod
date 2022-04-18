@@ -1,1 +1,13 @@
-<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{ if in .Destination "/static/" }}
+
+<!-- 12 is count of ../../static carachers -->
+{{ $new_file_path := substr .Destination 12 }}
+
+<!-- render the image with new path -->
+<img class="img-fluid" loading="lazy" src="{{ $new_file_path | safeURL }}" alt='{{ .Text }}' />
+
+{{ else }}
+
+<img class="img-fluid" loading="lazy" src="{{ .Destination | safeURL }}" alt='{{ .Text }}' />
+
+{{ end }}

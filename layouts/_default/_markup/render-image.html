@@ -1,7 +1,7 @@
 {{ if in .Destination "/static/" }}
 
 <!-- 12 is count of ../../static carachers -->
-{{ $new_file_path := substr .Destination 12 }}
+{{ $new_file_path := substr .Destination 15 }}
 
 <!-- render the image with new path -->
 <img class="img-fluid" loading="lazy" src="{{ $new_file_path | safeURL }}" alt='{{ .Text }}' />

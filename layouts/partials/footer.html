@@ -9,13 +9,17 @@
         All Rights Reserved.
     </span>
     <br/>
+
+    {{- if .Param "ShowSitePv" }}
     <span id="busuanzi_container_site_pv">
         Total Visits: <span id="busuanzi_value_site_pv"></span>.
     </span>
-    <!-- &nbsp; -->
+    {{- end}}
+    {{- if .Param "ShowSitePu" }}
     <span id="busuanzi_container_site_uv">
         You are the <span id="busuanzi_value_site_uv"></span> visitor.
     </span>
+    {{- end}}
 </footer>
 {{- end }}
 
